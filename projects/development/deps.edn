@@ -1,0 +1,6 @@
+{:deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        org.clojure/tools.deps.alpha {:mvn/version "0.12.985"}
+        poly/app          {:local/root "../../bases/app"}}
+
+ :aliases {:test {:extra-paths []
+                  :extra-deps  {}}}}

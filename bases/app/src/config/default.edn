@@ -1,0 +1,2 @@
+{:env :dev
+ :http-server {:port 8000}}

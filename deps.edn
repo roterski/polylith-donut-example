@@ -1,7 +1,12 @@
 {:aliases  {:dev {:extra-paths ["development/src"]
-                  :extra-deps {org.clojure/clojure {:mvn/version " 1.11.0"}}}
+                  :extra-deps {org.clojure/clojure {:mvn/version "1.11.1"}
+                               poly/app            {:local/root "bases/app"}
+                               poly/http-server    {:local/root "components/http-server"}
+                               poly/config-reader  {:local/root "components/config-reader"}}
+                  :jvm-opts    ["-Dsnoop.enabled"]}
 
-            :test {:extra-paths []}
+            :test {:extra-paths []
+                   :jvm-opts    ["-Dsnoop.enabled"]}
 
             :poly {:main-opts ["-m" "polylith.clj.core.poly-cli.core"]
                    :extra-deps {polyfy/polylith

@@ -1,0 +1,4 @@
+{:paths ["src" "resources"]
+ :deps {club.donutpower/system {:mvn/version "0.0.165"}}
+ :aliases {:test {:extra-paths ["test"]
+                  :extra-deps {}}}}
