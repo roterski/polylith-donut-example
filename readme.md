@@ -9,5 +9,7 @@ The Polylith documentation can be found here:
 You can also get in touch with the Polylith Team on [Slack](https://clojurians.slack.com/archives/C013B7MQHJQ).
 
 <h1>xwxpmnyxwp</h1>
-
-<p>Add your workspace documentation here...</p>
+xwxpmnyxwp is an intentionally obscure and unique to serve as a template placeholder. Feel free to use bb `scripts/rename-workspace` script to change it to your desired workspace name:
+````
+bb scripts/rename_workspace.bb . -t example-app
+````

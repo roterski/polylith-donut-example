@@ -1,0 +1,2 @@
+{:deps {com.crypticbutter/snoop {:mvn/version "21-353-alpha"}
+        metosin/malli           {:mvn/version "0.8.9"}}}
